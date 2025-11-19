@@ -7,7 +7,7 @@ def main():
     action_list = ["--add", "--substract", "--multiply"]
 
     num1 = sys.argv[2]
-    num2 = sys.arg[3]
+    num2 = sys.argv[3]
     
     assert action in action_list, "Operation not supported " + action
 
