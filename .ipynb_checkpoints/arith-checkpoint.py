@@ -8,4 +8,15 @@ def main():
 
     num1 = sys.argv[2]
     num2 = sys.arg[3]
-    
+
+    assert action in action_list, "Operation not supported " + action
+
+    if action == "--add":
+        print(float(num1) + float(num2))
+    elif action == "--substract":
+        print(float(num1) - float(num2))
+    elif action == "--multiply":
+        print(float(num1) * float(num2))
+
+if __name__ = "__main__":
+    main()

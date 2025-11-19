@@ -13,4 +13,10 @@ def main():
 
     if action == "--add":
         print(float(num1) + float(num2))
-    elif action == ""
+    elif action == "--substract":
+        print(float(num1) - float(num2))
+    elif action == "--multiply":
+        print(float(num1) * float(num2))
+
+if __name__ = "__main__":
+    main()
