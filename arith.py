@@ -18,5 +18,5 @@ def main():
     elif action == "--multiply":
         print(float(num1) * float(num2))
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     main()
