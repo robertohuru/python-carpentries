@@ -8,7 +8,7 @@ def main():
 
     num1 = sys.argv[2]
     num2 = sys.arg[3]
-
+    
     assert action in action_list, "Operation not supported " + action
 
     if action == "--add":
